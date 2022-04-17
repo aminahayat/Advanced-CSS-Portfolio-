@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link {
@@ -40,14 +41,10 @@ body {
 }
 
 @media screen and (max-width: 596px) {
-    .nav-container {
+    .nav-container, .nav-links {
         flex-direction: column;
         align-items: center;
     }
     
 }
 
-.nav-links-container {
-    display: flex;
-    flex-direction: row;
-    
