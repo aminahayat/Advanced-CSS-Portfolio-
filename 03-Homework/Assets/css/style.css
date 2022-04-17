@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 5;
 }
 
 /* nav styles */
@@ -9,10 +9,22 @@ body {
     justify-content: space-between;
 }
 
+.nav-link {
+    margin: 20;
+}
+
+
 @media screen and (max-width: 596px) {
     .nav-container {
         flex-direction: column;
         align-items: center;
     }
     
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    
+
 }
