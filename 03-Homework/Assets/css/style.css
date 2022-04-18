@@ -229,3 +229,19 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
