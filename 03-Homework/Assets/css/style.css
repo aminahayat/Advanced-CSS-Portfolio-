@@ -133,6 +133,53 @@ h4{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
-    
+}
+
+.work{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
 
 }
+
+.title h2 {
+color: azure;
+font-size: 45px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    pad: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    color: var(--font-hover);
+    font-size: 23px;
+    margin-bottom: 15px
+
+}
+
+.pra p{
+    color: var(--dark);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
