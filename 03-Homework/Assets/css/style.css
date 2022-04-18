@@ -1,6 +1,6 @@
 :root {
-    --dark: beige;
-    --head: rgb(209, 63, 85);
+    --dark: rgb(184, 99, 2);;
+    --head: rgb(251, 251, 251);
     --font-info: black;
     --font-hover: rgb(255, 136, 0);
 
@@ -10,7 +10,7 @@
 .main {
     height: 100vh;
     width: 100%;
-    background-image: url(../clouds.jpg);
+    background-image: url(../coder.jpg);
     background-size: cover;
     background-position: center;
 
@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-    color: rgb(77, 70, 62);
+    color: rgb(241, 101, 7);
     font-size: 40px;
     letter-spacing: 1px;
     cursor: pointer;
