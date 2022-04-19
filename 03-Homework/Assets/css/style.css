@@ -314,7 +314,6 @@ footer p:nth-child(2) {
 @media screen and (max-width: 596) {
 .nav, .box, .contact-me, .contact, .form, .row, .box:hover{
     flex-direction: column;
-    align-items: center;h
+    align-items: center;
 }
 }
-    
