@@ -6,6 +6,9 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 .main {
     height: 100vh;
@@ -15,6 +18,8 @@
     background-position: center;
 
 }
+
+
 
 nav {
     display: flex;
@@ -186,34 +191,87 @@ h5{
 
 .contact-me{
     width: 100%;
-    height: 240px;
+    height: 290px;
     background-color: var(--dark);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;  
 }
-
-#msg {
-    width: 60%;
-    padding: 30px;
-    margin: 10px 10px 0px 0px;
-    border: none;
-    outline: none;
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(243, 89, 0) ;
+    color: white;
+    padding: 20px;
 }
 
-#send {
-    padding: 10px;
-    width: 80px;
+.contact-me {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.input {
+    padding: 15px;
     margin: 0px 15px 15px 0px;
+    width: 100%;
     border: none;
     outline: none;
 }
 
-#send:hover {
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
+/*services section*/
+#socials {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(204, 108, 52) 50%, rgb(250, 250, 250) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(204, 108, 52) ;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
 
 .contact-me .button-two{
     background-color: var(--head);
@@ -236,7 +294,7 @@ h5{
 footer {
     position: relative;
     width: 100%;
-    height: 20x;
+    height: 400px;
     background: 101010;
     display: flex;
     flex-direction: column;
@@ -247,7 +305,7 @@ footer {
 footer p:nth-child(1) {
     font-size: 30px;
     color: white;
-    margin: 10px;
+    margin: 20px;
     font-weight: bold;
 
 }
@@ -259,3 +317,5 @@ footer p:nth-child(2) {
     text-align: center;
     line-height: 26px;
 }
+
+
