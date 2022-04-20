@@ -1,6 +1,6 @@
 # Advanced-CSS-Portfolio-
 
-Deployed URL - http://127.0.0.1:5501/index.html
+Deployed URL - https://aminahayat.github.io/Advanced-CSS-Portfolio-/
 GitHub URL - https://github.com/aminahayat/Advanced-CSS-Portfolio-
 
 I have used HTML and CSS to create my portfolio.
