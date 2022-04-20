@@ -72,8 +72,8 @@ nav ul li a:hover {
   }
 
 .btn:hover {
-  transform: scale(2);
-}
+    transform: scale(2);
+  }
 
 .content {
   position: absolute;
@@ -225,7 +225,7 @@ h5 {
 #socials {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 5px;
 }
 
 .row {
@@ -342,17 +342,21 @@ footer p:nth-child(1) {
     transition: all 0.8s;
   }
   
-  .box-1:hover {
+.box-1:hover {
     background-position: left bottom;
     color: white;
     border: none;
     box-shadow: 0 0 20px rgb(204, 108, 52);
   }
   
-  .box-1 img {
+.box-1 img {
     width: 200px;
     height: 200px;
     background-color: rgb(237, 108, 28);
     padding: 5px;
   
   }
+
+  /* -------------------- */
+
+  
