@@ -358,4 +358,24 @@ footer p:nth-child(1) {
   }
 
   /* -----links--------------- */
+  
+  @media screen and (max-width: 992px) {
+      header {
+          background: red;
+      }
+  }
 
+  @media screen and (max-width: 768px) {
+    nav {
+        background: rgb(10, 205, 72);
+    }
+}
+@media screen and (max-width: 576px) {
+    .img {
+        background: rgb(41, 24, 136);
+    }
+}
+
+
+
+  
