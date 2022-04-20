@@ -184,11 +184,11 @@ h5 {
 }
 
 .pra p {
-  color: var(--dark);
-  font-size: 20px;
-  line-height: 27px;
-  margin-bottom: 25px;
-}
+    color: var(--dark);
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
 
 #contact {
   display: flex;
@@ -256,17 +256,17 @@ h5 {
 }
 
 .box:hover {
-  background-position: left bottom;
-  color: white;
-  border: none;
-  box-shadow: 0 0 20px rgb(204, 108, 52);
-}
-
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(204, 108, 52);
+  }
+  
 .box img {
   width: 200px;
   height: 200px;
   background-color: rgb(237, 108, 28);
-  padding: 5px;
+  padding: 8px;
 
 }
 
@@ -281,7 +281,7 @@ h5 {
     transition: 0.4s;
   }
 
-  .contact-me .button-two:hover {
+.contact-me .button-two:hover {
     background-color: yellow;
     border: 2px solid red;
     cursor: pointer;
@@ -320,7 +320,7 @@ footer p:nth-child(1) {
     align-items: center;
 }
 }
-/* WHITE BACOGROUND BOX FOR PROJECTS */
+/* WHITE BACOGROUND BOX FOR PROJECTS SECTION */
 
 .box-1 {
     display: flex;
@@ -357,6 +357,5 @@ footer p:nth-child(1) {
   
   }
 
-  /* -------------------- */
+  /* -----links--------------- */
 
-  
